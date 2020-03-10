@@ -8,8 +8,8 @@ import java.io.EOFException;
 import java.io.IOException;
 
 public class ThreadStreamPipe extends Thread {
-	private static int CR=13;
-	private static int LF=10;
+	private static final int CR=13;
+	private static final int LF=10;
 	private DataInputStream input; //C'est mieux pour lire du raw bytes
 	private DataOutputStream output;
 	
